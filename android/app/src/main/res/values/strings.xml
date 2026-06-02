@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">SleepGuard</string>
-</resources>
+    <string name="app_name">Sleep Guard</string>
+    <string name="device_admin_description">Used to lock the screen when sleep is detected.</string>
+    </resources>
+
