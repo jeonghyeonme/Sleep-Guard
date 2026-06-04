@@ -27,7 +27,7 @@ class SleepGuardService : Service() {
     private var isMonitoring = false
     private var isMonitoringLoopStarted = false
     private var lastMovementTime = System.currentTimeMillis()
-    private val INACTIVITY_THRESHOLD = 10 * 1000L // 10 seconds for testing
+    private val INACTIVITY_THRESHOLD = 5 * 1000L // 10 seconds for testing
 
     companion object {
         const val ACTION_STOP = "com.sleepguard.action.STOP"
